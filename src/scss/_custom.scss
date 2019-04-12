@@ -71,3 +71,43 @@ color: transparent !important;
     padding-right: 0;
     padding-left: 0;
 }
+.btn-lg{
+    padding:0;
+}
+
+@include media-breakpoint-down(md) {
+    .navbar-brand > img {
+        max-height: 50px;
+    }
+    
+    .btn-block-md-only {
+        display: block;
+        width: 100%;
+      }
+    .h1 {
+        font-size:15px;
+    }
+    .list {
+        padding:2rem;
+    }
+    .row > .pl-5 .pt-5 {
+        padding:0;
+    }
+    
+    .icons > img {
+        padding-top:1rem;
+        padding-bottom:3rem;
+        padding-left:1rem;
+        padding-right: 1rem;
+    }
+    .carousel-caption {
+        padding-bottom: 0;
+    }
+    .iconheader {
+        color:black;
+        padding-top:2rem;
+    }
+    .cardsmobile {
+        display: block;
+    }
+}
