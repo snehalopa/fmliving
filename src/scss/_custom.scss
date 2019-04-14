@@ -64,8 +64,9 @@ color: transparent !important;
     margin-top: 35px;
 }
 .reachus{
-    margin-top: -32rem !important;
-    margin-left:10rem;
+    // margin-top: -32rem !important;
+    // margin-left:10rem;
+    padding: 0;
 }
 .addr{
     padding-right: 0;
@@ -74,12 +75,20 @@ color: transparent !important;
 .btn-lg{
     padding:0;
 }
+.booknow{
+    padding:0.33rem 1.5rem;
+}
 
 @include media-breakpoint-down(md) {
     .navbar-brand > img {
         max-height: 50px;
     }
-    
+    .card-body > img {
+        max-height: 50px;
+    }
+    li > img {
+        max-height: 50px;
+    }
     .btn-block-md-only {
         display: block;
         width: 100%;
@@ -107,7 +116,20 @@ color: transparent !important;
         color:black;
         padding-top:2rem;
     }
-    .cardsmobile {
+    .blogs {
         display: block;
     }
+    .mobilefooter {
+        padding-left:0;
+        padding-right:0;
+    }
+    .my-5 {
+        margin-top:0;
+        margin-bottom:0;
+    }
+
 }
+
+// .bg-contactus{
+//     background-image: url('../../docs/images/banner_deluxe double.jpg');
+// }
