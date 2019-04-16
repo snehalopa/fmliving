@@ -2,6 +2,9 @@
 <html>
     <head>
         <title>Our Rooms</title>
+        <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     </head>
 
     <body>
@@ -12,14 +15,14 @@
                     <div class="navbar-collapse collapse dual-nav w-50 order-1 order-md-0">
                         <ul class="navbar-nav bg">
                             <li class="nav-item active y">
-                                <a class="nav-link color-primary" href="#">ABOUT</a>
+                                <a class="nav-link color-primary" href="about.html">ABOUT</a>
                             </li>
-                            <li class="nav-item active">
-                                <a class="nav-link color-primary" href="#">OUR ROOMS</a>
+                            <li class="nav-item active ">
+                                <a class="nav-link color-primary" href="ourrooms.html">OUR ROOMS</a>
                             </li>
                         </ul>
                     </div>
-                    <a href="/" class="navbar-brand mx-auto d-block text-center order-0 order-md-1 w-25">
+                    <a href="index.html" class="navbar-brand  d-block text-center order-0 order-md-1 w-25">
                         <img src="images/logo_header.png">
                     </a>
                     <div class="navbar-collapse collapse dual-nav w-50 order-2">
@@ -28,32 +31,32 @@
                                 <a class="nav-link color-primary" href="#">RESERVATIONS</a>
                             </li>
                             <li class="nav-item active">
-                                <a class="nav-link color-primary" href="#">CONTACT</a>
+                                <a class="nav-link color-primary" href="contact.html">CONTACT</a>
                             </li>
                         </ul>
                     </div>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-nav">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                </div>
-            </nav>
+                  </div>
+              </nav>
 
-            <nav class="navbar navbar-light bg-ammenities">
-                <div class="container">
-                    <form class="form-inline">
-                        <input class="form-control mr-sm-2" type="search" placeholder="From.." aria-label="Search">
-                    
-                        <input class="form-control mr-sm-2" type="search" placeholder="To.." aria-label="Search">
-                    
-                        <input class="form-control mr-sm-2 col-sm-2" type="search" placeholder="Room Type" aria-label="Search">
-                    
-                        <input class="form-control mr-sm-2" type="search" placeholder="Select Rooms" aria-label="Search">
-                    
-                        <input class="form-control mr-sm-2" type="search" placeholder="Email address" aria-label="Search">
-                        <button class="btn-success btn-outline-success my-2 my-sm-0" type="submit" style="color:#fff; font-weight:bolder; padding:5px;">BOOK NOW</button>
-                    </form>
-                </div>
-            </nav>
+              <nav class="navbar navbar-light bg-ammenities p-0 p-sm-2" >
+                    <div class="container p-0 p-sm-2" >
+                        <form class="form-inline col-md-12 p-0 p-sm-1" method="GET" action="https://httpbin.org/get">
+                            <input class="form-control mr-sm-2 col-md-2 d-none d-lg-block" name="from_date" type="search" placeholder="From.." aria-label="Search">
+                        
+                            <input class="form-control mr-sm-2 col-md-2 d-none d-lg-block" name="to_date"  type="search" placeholder="To.." aria-label="Search">
+                        
+                            <input class="form-control mr-sm-2 col-md-2 d-none d-lg-block" name="room_date" type="search" placeholder="Room Type" aria-label="Search">
+                        
+                            <input class="form-control mr-sm-2 col-md-2 d-none d-lg-block" type="search" placeholder="Select Rooms" aria-label="Search">
+                        
+                            <input class="form-control mr-sm-2 col-md-2 d-none d-lg-block" type="search" placeholder="Email address" aria-label="Search">
+                            <button class="btn booknow btn-success btn-outline-success btn-block-md-only" type="submit" style="color:#fff; font-weight:bolder;">BOOK NOW</button>
+                        </form>
+                    </div>
+                </nav>
 
             <div class="container mt-3">
                 <nav aria-label="breadcrumb">

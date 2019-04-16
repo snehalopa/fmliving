@@ -43,9 +43,9 @@ color: transparent !important;
     padding-left:0;
     padding-right:0;
 }
-.thexp{
+.px-sm-5{
     padding-left: 20rem;
-    padding-right: 20rem;
+    padding-right: 20rem; 
 }
 .contact{
     margin-top: -20rem !important;
@@ -78,6 +78,7 @@ color: transparent !important;
 .booknow{
     padding:0.33rem 1.5rem;
 }
+
 
 @include media-breakpoint-down(md) {
     .navbar-brand > img {
@@ -127,9 +128,22 @@ color: transparent !important;
         margin-top:0;
         margin-bottom:0;
     }
+    .d-none .d-sm-block > div {
+        margin-top: 21rem;
+    }
+    .carouselsmall {
+        margin-top:21rem;
+    }
 
 }
 
 // .bg-contactus{
 //     background-image: url('../../docs/images/banner_deluxe double.jpg');
 // }
+
+@include media-breakpoint-up(md){
+    .carouselbig{
+        margin-top:10rem;
+        margin-left:45rem;
+    }
+}
