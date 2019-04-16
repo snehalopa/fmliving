@@ -73,14 +73,15 @@
             </div>
 
             <div class="container">
-                <div class="row my-5">
+                <div class="row p-3">
+                        <div class="col-md-6">
+                                <img class="img-fluid" style="height:250px;"src="images/gallery_11.jpg">
+                            </div>
                     <div class="col-md-6">
                         <h2>Your little home away from home!</h2>
                         <p>Intuitively designed to suit your vacation style, the Deluxe Studio features generous custom details that reflect the culture this place holds. Our Double studios offer you all the amenities and facilities that you can find in your own home along with a stunning setting and a location that is second to none!</p>
                     </div>
-                    <div class="col-md-6">
-                        <img style="height:250px; width: 400px;"src="images/gallery_11.jpg">
-                    </div>
+                    
                 </div>
             </div>
 
@@ -106,57 +107,150 @@
                         </a>
                 </div>
 
-                <div class="bg-ammenities" >
-                        <div class="container py-2">
+                <div class="bg-ammenities d-none d-lg-block" >
+                        <div class="container py-2 col-md-12 ">
                             <ul style="display: flex; list-style-type: none; justify-content: space-between">
                                 <li class="text-center">
-                                    <img style="display:block" src="images/Shower.svg">Shower
+                                    <img class="d-flex" src="images/Shower.svg">Shower
                                  </li>
                                 <li class="text-center">
-                                    <img style="display:block" src="images/checkin.svg">Auto check-in
+                                    <img class="d-flex" src="images/checkin.svg">Auto check-in
                                  </li>
                                 <li class="text-center">
-                                    <img style="display:block" src="images/dryer.svg">Washer-Dryer
+                                    <img class="d-flex" src="images/dryer.svg">Washer-Dryer
                                  </li>
                                 <li class="text-center">
-                                    <img style="display:block" src="images/location.svg">Prime Location
+                                    <img class="d-flex" src="images/location.svg">Prime Location
                                  </li>
                                 <li class="text-center">
-                                    <img style="display:block" src="images/luxury.svg">Luxury Matress
+                                    <img class="d-flex" src="images/luxury.svg">Luxury Matress
                                  </li>
                                 <li class="text-center">
-                                    <img style="display:block" src="images/security.svg">24/7 Security
+                                    <img class="d-flex" src="images/security.svg">24/7 Security
                                  </li>
                                 <li class="text-center">
-                                    <img style="display:block" src="images/wifi.svg">Free Wifi
+                                    <img class="d-flex" src="images/wifi.svg">Free Wifi
                                  </li>
                             </ul>
                         </div>
                         </div>
 
-                        <div class="bd-example text-center ">
-                                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-                                  
-                                  <div class="carousel-inner text-center">
-                                    <div class="carousel-item active">
-                                      <img src="images/banner_duplex apartment.jpg" class="d-block w-100" alt="...">
-                                      <div class="carousel-caption d-none d-md-block">
-                                        <h1 class="text-uppercase">Hear it from Customers</h1>
-                                        <img src="images/customer.png">
-                                        <p>"Great central location, the hosts were helpful and allowed left loggage, the room was clean, the facilities were great. Lovely building with a great history and only a few minutes walk from Lime Street Station."</p>
-                                        <h3>-CATHERINE ADAMS</h3>
-                                        <ul class="text-center" style="display: flex; list-style-type: none; justify-content: center">
-                                            <li ><img src="images/star.png"></li>
-                                            <li ><img src="images/star.png"></li>
-                                            <li ><img src="images/star.png"></li>
-                                            <li ><img src="images/star.png"></li>
-                                            <li ><img src="images/star.png"></li>
-                                        </ul>
-                                      </div>
-                                    </div>
-                                    </div>
-                                    </div>
-                                    </div>
+<!--mobile view carousel-->
+
+<div class="bg-ammenities d-block d-sm-none">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+          
+          <div class="carousel-inner">
+            <div class="carousel-item icons active" data-interval="false">
+              <img  src="images/Shower.svg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-block d-sm-none">
+                <h5 class="iconheader">Shower</h5>
+                
+              </div>
+            </div>
+            <div class="carousel-item icons" data-interval="false">
+              <img src="images/checkin.svg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-block d-sm-none">
+                <h5 class="iconheader">Checkin</h5>
+                
+              </div>
+            </div>
+            <div class="carousel-item icons" data-interval="false">
+              <img src="images/dryer.svg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-block d-sm-none">
+                <h5 class="iconheader">Dryer</h5>
+                
+              </div>
+            </div>
+            <div class="carousel-item icons" data-interval="false">
+              <img src="images/location.svg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-block d-sm-none">
+                <h5 class="iconheader">Location</h5>
+                
+              </div>
+            </div>
+            <div class="carousel-item icons" data-interval="false">
+              <img src="images/luxury.svg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-block d-sm-none">
+                <h5 class="iconheader">Luxury</h5>
+                
+              </div>
+            </div>
+            <div class="carousel-item icons" data-interval="false">
+              <img src="images/security.svg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-block d-sm-none">
+                <h5 class="iconheader">Security</h5>
+                
+              </div>
+            </div>
+            <div class="carousel-item icons" data-interval="false">
+              <img src="images/wifi.svg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-block d-sm-none">
+                <h5 class="iconheader">Wifi</h5>
+                
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+
+<!---->
+
+
+<div class="container-fluid bg-main text-center">
+        <div class="container py-5"; style="color: #fff">
+          <h1 class="color-primary" style="font-weight:bolder">Hear it from Customers</h1>
+    
+          <div id="carouselHearFromCustomers" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                  <div class="carousel-item icons active" data-interval="false">
+                      <div class="mx-auto text-center">
+                          <img src="images/customer.png" class="">
+                          <p>"Great central location, the hosts were helpful and allowed left loggage, the room was clean, the facilities were great. Lovely building with a great history and only a few minutes walk from Lime Street Station."</p>
+                          <h5 style="font-weight:bolder">-CATHERINE ADAMS</h5>
+                          <ul class="text-center" style="display: flex; list-style-type: none; justify-content: center">
+                              <li ><img src="images/star.png"></li>
+                              <li ><img src="images/star.png"></li>
+                              <li ><img src="images/star.png"></li>
+                              <li ><img src="images/star.png"></li>
+                              <li ><img src="images/star.png"></li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="carousel-item icons" data-interval="false">
+                      <div class="mx-auto text-center">
+                          <img src="images/customer.png">
+                          <p>"Great central location, the hosts were helpful and allowed left loggage, the room was clean, the facilities were great. Lovely building with a great history and only a few minutes walk from Lime Street Station."</p>
+                          <h5 style="font-weight:bolder">-CATHERINE ADAMS</h5>
+                          <ul class="text-center" style="display: flex; list-style-type: none; justify-content: center">
+                              <li ><img src="images/star.png"></li>
+                              <li ><img src="images/star.png"></li>
+                              <li ><img src="images/star.png"></li>
+                              <li ><img src="images/star.png"></li>
+                              <li ><img src="images/star.png"></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselHearFromCustomers" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+              <a class="carousel-control-next" href="#carouselHearFromCustomers" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+          </div>
+        </div>
+    </div>
 
                                     <div class="container-fluid text-center bg-ammenities paddings">
                                             <p class="text-uppercase">Stay connected</p>
@@ -168,25 +262,25 @@
                                             </ul>
                                         </div>
         
-                                        <div class="container-fluid bg-details paddings">
-                                                <div class="container">
-                                                        <div class="row my-5">
+                                        <div class="container-fluid mobilefooter bg-details paddings">
+                                                <div class="container mobilefooter">
+                                                        <div class="row my-sm-5 mobilefootermargin">
                                                                 <div class="col-sm">
                                                                   <ul style="list-style-type:none">
-                                                                      <li><img src="images/logo_header.png"></li>
-                                                                      <li class="mt-3" style="color:#fff">Experience Liverpool in style and comfort with FM Living</li>
+                                                                      <li><img src="images/logo_header.png" class="mb-2"></li>
+                                                                      <li class="mt-md-3" style="color:#fff">Experience Liverpool in style and comfort with FM Living</li>
                                                                   </ul>
                                                                 </div>
-                                                                <div class="col-sm">
-                                                                  <ul style="list-style-type:none;color: #fff">
-                                                                      <li><h4 class="mb-5">Contact</h4></li>
+                                                                <div class="col-sm my-2 my-sm-3">
+                                                                  <ul style="list-style-type:none;color: #fff;">
+                                                                      <li><h4 class="mb-md-5" style="font-weight:bolder;">Contact</h4></li>
                                                                       <li>9577548518</li>
                                                                       <li>sneha3950@gmail.com</li>
                                                                   </ul>
                                                                 </div>
-                                                                <div class="col-sm">
-                                                                  <ul style="list-style-type:none;color: #fff">
-                                                                      <li><h4 class="mb-5">Quick Links</h4></li>
+                                                                <div class="col-sm my-sm-3">
+                                                                  <ul style="list-style-type:none;color: #fff;">
+                                                                      <li><h4 class="mb-md-5" style="font-weight:bolder;" >Quick Links</h4></li>
                                                                       <li>About</li>
                                                                       <li>Our Rooms</li>
                                                                       <li>Reservations</li>
