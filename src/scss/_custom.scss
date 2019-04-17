@@ -83,6 +83,19 @@ color: transparent !important;
     height:40px;
     
 }
+.navbar-nav li:hover .roomtypes{
+    position: absolute;
+    display: flex;
+    
+    color: white;
+}
+.roomtypes{
+    display:none;
+    background-color: black;
+    position: absolute;
+    z-index: 1000;
+    
+}
 .readbutton:hover {
     background-color:green;
     color:white;
