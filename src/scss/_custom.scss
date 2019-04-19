@@ -86,7 +86,7 @@ color: transparent !important;
 .navbar-nav li:hover .roomtypes{
     position: absolute;
     display: flex;
-    
+    cursor: pointer;
     color: white;
 }
 .roomtypes{
